@@ -45,8 +45,8 @@ if ($uploadOk == 0) {
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
-        sleep(2000);
-        echo "<img src='uploads/".$target_file."'>";
+
+        echo "<img src='".$target_file."'>";
     } else {
         echo "Sorry,  Er ontstond een fout bij het uploaden van uw afbeelding..";
     }
