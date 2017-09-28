@@ -13,8 +13,7 @@ $hobbies = [
 ];
 
 foreach ($hobbies as $hobby) {
-	echo 
-"<li>".$hobby."</li>";
+echo "<li>".$hobby."</li>";
 }
 
 
