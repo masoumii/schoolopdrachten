@@ -12,14 +12,12 @@ $hobbies = [
     'Stalking',
 ];
 
+foreach ($hobbies as $hobby) {
+	echo 
+"<li>".$hobby."</li>";
+}
 
-echo 
-"<li>".$hobbies[0]."</li>
-<li>".$hobbies[1]."</li>
-<li>".$hobbies[2]."</li>
-<li>".$hobbies[3]."</li>
-<li>".$hobbies[4]."</li>
-<li>".$hobbies[5]."</li>";
+
 
 //////////////////////////////////////////////////////////////////
 ?>
